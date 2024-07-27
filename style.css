@@ -634,6 +634,59 @@ div#portfolio .right-column picture{
     bottom: 0px;
 }
 
+#leatt .phoneMove.mobile_1 {
+    left: 0;
+    bottom: 1500px;
+}
+#leatt .phoneMove.mobile_2 {
+    left: 80%;
+    bottom: 1000px;
+}
+#leatt .phoneMove.mobile_3 {
+    left: 1%;
+    bottom: 500px;
+}
+
+
+#asw .phoneMove.mobile_1 {
+    left: 0;
+    bottom: 300px;
+}
+#asw .phoneMove.mobile_2 {
+    left: 80%;
+    bottom: 0px;
+}
+#asw .phoneMove.mobile_3 {
+    left: 1%;
+    bottom: -500px;
+}
+
+#foxstar .phoneMove.mobile_1 {
+    left: 0;
+    bottom: 1000px;
+}
+#foxstar .phoneMove.mobile_2 {
+    left: 80%;
+    bottom: 500px;
+}
+#foxstar .phoneMove.mobile_3 {
+    left: 1%;
+    bottom: 0px;
+}
+
+#refricril .phoneMove.mobile_1 {
+    left: 0;
+    bottom: 300px;
+}
+#refricril .phoneMove.mobile_2 {
+    left: 80%;
+    bottom: -500px;
+}
+#refricril .phoneMove.mobile_3 {
+    left: 1%;
+    bottom: -1300px;
+}
+
 /* FOOTER  */
 
 .wrapper-footer {
