@@ -686,6 +686,10 @@ div#portfolio .right-column picture{
     left: 1%;
     bottom: -1300px;
 }
+.mobile_layout.mobile {
+    max-width: 200px;
+    margin: -210px auto 0;
+}
 
 /* FOOTER  */
 
