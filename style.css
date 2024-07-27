@@ -478,13 +478,17 @@ body #header .main-header .menu-header .wrapper .conditions-content .card img {
     position: relative;
     left: 170px;
     top: 70px;
+    display: flex;
+    align-items: center;
 }
 
-#about .ten-yerar span, #about .thirty-years span {
+#about .ten-yerar span,
+#about .thirty-years span {
     font-size: 72px;
     font-weight: 700;
     color: var(--color-secundary);
     margin-right: 9px;
+    font-family: 'Poppins';
 }
 #about .ten-yerar span:before,
 #about .thirty-years span:before {
