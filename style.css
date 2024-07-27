@@ -113,7 +113,6 @@ body #header {
 .showcase {
     margin-bottom: 77px;
 }
-phoneMove
 
 body #header .top-header {
     height: 24px;
@@ -277,9 +276,10 @@ body #header .main-header .menu-header .wrapper .conditions-content .card img {
     margin-right: 10px;
 }
 
-#middle .wrapper {
+#middle .wrapper.fullbanner-carousel {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
+    padding-top: 70px;
 }
 
 /* MAIN BANNER */
@@ -449,7 +449,7 @@ body #header .main-header .menu-header .wrapper .conditions-content .card img {
 
     background-position: center;
     width: 1280px;
-    background-image: url("/portfolio/banners/renato_banner_background.png");
+    background-image: url("gibanners/renato_banner_background.png");
 }
 #about .ten-yerar {
     font-size: 25px;
@@ -606,8 +606,8 @@ div#portfolio .right-column picture{
 
 .project {
     position: relative;
-    margin-top: 0; /* Ajuste conforme necessário */
-    margin-bottom: 250px;
+    padding-top: 80px;
+    margin-bottom: 150px;
 }
 
 .phoneMove img {
@@ -693,7 +693,7 @@ div#portfolio .right-column picture{
 /* MOBILE */
 @media (max-width: 767px) {
     body {
-        padding-top: 88px;
+        padding-top: 60px;
     }
     #middle {
         margin-bottom: 40px;
@@ -833,14 +833,16 @@ div#portfolio .right-column picture{
         width: 100%;
         margin-bottom: 40px;
         min-height: 221px;
+        opacity: 0;
     }
     div#portfolio .job-description.fixed {
         position: initial;
+        opacity: 1;
     }
     .project {
         position: relative;
         margin-bottom: 0;
-        padding-top: 85px;
+        padding-top: 75px;
     }
     .phoneMove {
         display: none;
