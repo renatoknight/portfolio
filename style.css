@@ -449,7 +449,11 @@ body #header .main-header .menu-header .wrapper .conditions-content .card img {
 
     background-position: center;
     width: 1280px;
-    background-image: url("gibanners/renato_banner_background.png");
+<<<<<<< HEAD
+    background-image: url("/portfolio/renato_banner_background.png");
+=======
+    background-image: url("/portfolio/banners/renato_banner_background.png");
+>>>>>>> a5a34c00c83fc6ca30418466c902d347f8c21fb5
 }
 #about .ten-yerar {
     font-size: 25px;
