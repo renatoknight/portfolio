@@ -427,13 +427,9 @@ body #header .main-header .menu-header .wrapper .conditions-content .card img {
 
 
 #about .banner-content {
-
-
-        height: 503px;
-        width: 1280px;
-
+    height: 503px;
+    width: 1280px;
     position: relative;
-
     background-position: center;
     width: 1280px;
     background-image: url("banners/renato_banner_background.png");
@@ -451,7 +447,7 @@ body #header .main-header .menu-header .wrapper .conditions-content .card img {
     float: right;
     right: 50px;
     position: relative;
-    top: -70px;
+    top: -130px;
     font-weight: 200;
     width: 390px;
 }
@@ -480,6 +476,7 @@ body #header .main-header .menu-header .wrapper .conditions-content .card img {
 #about .ten-yerar span:before,
 #about .thirty-years span:before {
     content: '+';
+    font-weight: 500;
 }
 #about .title {
     display: flex;
@@ -488,22 +485,34 @@ body #header .main-header .menu-header .wrapper .conditions-content .card img {
     font-size: 22px;
     align-items: center;
     margin-bottom: 35px;
+    font-family: 'Poppins';
 }
-#about .title:after {
+/* #about .title:after {
     content: '';
     height: 2px;
     width: 94px;
     background-color: var(--color-secundary);
     float: right;
     margin-left: 18px;
-}
+} */
 #about .first-phrase {
     margin-bottom: 30px;
 }
 #about strong {
     color: var(--color-secundary);
 }
-
+#about .contact {
+    display: flex;
+    align-items: center;
+    margin: 25px 0 10px;
+}
+#about .contact .text {
+    font-weight: 300;
+}
+#about .contact img {
+    max-width: 24px;
+    margin: 0 12px;
+}
 
 
 
@@ -518,6 +527,16 @@ body #header .main-header .menu-header .wrapper .conditions-content .card img {
 }
 #about img:hover {
     transform: scale(1.1);
+}
+#portfolio {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+#portfolio .title {
+    font-size: 50px;
+    font-family: 'Poppins';
+    color: #5d5d5d;
+    font-weight: bold;
 }
 div#portfolio > .wrapper {
     display: flex;
@@ -610,71 +629,55 @@ div#portfolio .right-column picture{
     bottom: 0;
     left: 40%;
     transition: all 0.5s ease-in-out;
-
 }
 .phoneMove.mobile_1 {
     left: 0;
     bottom: 1000px;
 }
 .phoneMove.mobile_2 {
-    left: 80%;
+    left: 120%;
     bottom: 500px;
 }
 .phoneMove.mobile_3 {
     left: 1%;
     bottom: 0px;
 }
-
 #leatt .phoneMove.mobile_1 {
     left: 0;
     bottom: 1500px;
 }
 #leatt .phoneMove.mobile_2 {
-    left: 80%;
     bottom: 1000px;
 }
 #leatt .phoneMove.mobile_3 {
     left: 1%;
     bottom: 500px;
 }
-
-
 #asw .phoneMove.mobile_1 {
-    left: 0;
     bottom: 300px;
 }
 #asw .phoneMove.mobile_2 {
-    left: 80%;
     bottom: 0px;
 }
 #asw .phoneMove.mobile_3 {
-    left: 1%;
     bottom: -500px;
 }
-
 #foxstar .phoneMove.mobile_1 {
-    left: 0;
     bottom: 1000px;
 }
 #foxstar .phoneMove.mobile_2 {
-    left: 80%;
     bottom: 500px;
 }
 #foxstar .phoneMove.mobile_3 {
-    left: 1%;
     bottom: 0px;
 }
-
 #refricril .phoneMove.mobile_1 {
-    left: 0;
     bottom: 300px;
 }
 #refricril .phoneMove.mobile_2 {
-    left: 80%;
     bottom: -500px;
 }
 #refricril .phoneMove.mobile_3 {
-    left: 1%;
     bottom: -1300px;
 }
 .mobile_layout.mobile {
@@ -818,14 +821,19 @@ div#portfolio .right-column picture{
 
     /**/
 
-    #about .title {
+    #about .title,
+    #portfolio .title {
         display: flex;
-        font-weight: 600;
-        color: var(--color-secundary);
-        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+        font-size: 69px;
         align-items: center;
-        margin: 32px;
+        margin: 4px;
+        font-family: 'Poppins';
+        justify-content: space-around;
+        margin-top: 25px;
     }
+    
     #about .banner-content {
         width: 92%;
         height: 270px;
@@ -855,6 +863,7 @@ div#portfolio .right-column picture{
     #about .banner-content .about-me{
         display: none;
     }
+
 
 
     div#portfolio .left-column {
@@ -925,7 +934,9 @@ div#portfolio .right-column picture{
         flex-direction: column;
         align-items: center;
     }
-
+    div#zelo.project {
+        padding-top: 30px;
+    }
 
     .footer {
         padding: 12px 0 0;
