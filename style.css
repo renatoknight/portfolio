@@ -872,7 +872,7 @@ div#portfolio .right-column picture{
     }
     div#portfolio .right-column {
         width: 100%;
-        padding: 20px;
+        padding: 0 20px;
         box-sizing: border-box;
     }
     div#portfolio .left-column .content {
@@ -899,7 +899,7 @@ div#portfolio .right-column picture{
     .project {
         position: relative;
         margin-bottom: 0;
-        padding-top: 75px;
+        padding-top: 90px;
     }
     .phoneMove {
         display: none;
@@ -934,10 +934,6 @@ div#portfolio .right-column picture{
         flex-direction: column;
         align-items: center;
     }
-    div#zelo.project {
-        padding-top: 30px;
-    }
-
     .footer {
         padding: 12px 0 0;
     }
