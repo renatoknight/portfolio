@@ -175,6 +175,7 @@ body #header .main-header .main-bar {
 body #header .main-header .main-bar .wrapper {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 88px;
 }
 body #header .main-header .navigation {
@@ -234,6 +235,9 @@ body #header .main-header .menu-header .wrapper ul li.highlight img {
 body #header .main-header .menu-header .wrapper .conditions-content .card img {
     margin-right: 10px;
 }
+#header .main-header .bar-content {
+    display: flex;
+}
 .logo {
     background-color: var(--color-secundary);
     height: 50px;
@@ -246,7 +250,15 @@ body #header .main-header .menu-header .wrapper .conditions-content .card img {
     justify-content: center;
     margin-right: 50px;
 }
+#header .main-header .language .english a {
+    display: flex;
+    align-items: center;
+}
 
+#header .main-header .language .english img {
+    max-width: 24px;
+    margin-right: 6px;
+}
 
 .link_linkedin img {
     max-width: 18px;
@@ -754,6 +766,9 @@ div#portfolio .right-column picture{
         flex-direction: column;
     }
     div#about picture {
+        display: none;
+    }
+    .main-header .language {
         display: none;
     }
     body #header .main-header .navigation > .mail,
