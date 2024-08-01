@@ -521,12 +521,16 @@ body #header .main-header .menu-header .wrapper .conditions-content .card img {
 }
 #about .contact .text {
     font-weight: 300;
+    margin-right: 5px;
 }
 #about .contact img {
     max-width: 24px;
     margin: 0 12px;
 }
-
+#about .contact .mail a {
+    display: flex;
+    align-items: center;
+}
 
 
 /* MIDDLE  */
