@@ -253,10 +253,11 @@ body #header .main-header .menu-header .wrapper .conditions-content .card img {
 #header .main-header .language .english a {
     display: flex;
     align-items: center;
+    font-size: 14px;
 }
 
 #header .main-header .language .english img {
-    max-width: 24px;
+    max-width: 22px;
     margin-right: 6px;
 }
 
